@@ -1,1 +1,1 @@
-require("notzamba")
+require "zamba"
