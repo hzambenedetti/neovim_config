@@ -5,7 +5,8 @@ local servers = {
   "rust_analyzer",
   "clangd",
   "taplo",
-  "matlab_ls"
+  "matlab_ls",
+  "tsserver"
 }
 
 local settings = {
