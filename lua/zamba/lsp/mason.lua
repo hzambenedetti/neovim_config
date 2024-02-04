@@ -1,3 +1,5 @@
+
+-- Language Server options: https://github.com/williamboman/mason-lspconfig.nvim
 local servers = {
   "lua_ls",
 	"pyright",
@@ -6,7 +8,9 @@ local servers = {
   "clangd",
   "taplo",
   "matlab_ls",
-  "tsserver"
+  "tsserver",
+  "cssls",
+  "html"
 }
 
 local settings = {
