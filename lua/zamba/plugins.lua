@@ -132,23 +132,16 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
   
   -- Nvim tree 
-  use{
-    "kyazdani42/nvim-tree.lua",
-    requires ={}
-  }
+  use "kyazdani42/nvim-tree.lua"
   use "kyazdani42/nvim-web-devicons"
   
   -- Bufferline 
-  use {
-    "akinsho/bufferline.nvim",
-  } 
+  use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
   
   
   -- ToggleTerm
-  use{
-    "akinsho/toggleterm.nvim"
-  }
+  use "akinsho/toggleterm.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

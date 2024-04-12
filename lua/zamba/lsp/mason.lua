@@ -5,12 +5,13 @@ local servers = {
 	"pyright",
 	"jsonls",
   "rust_analyzer",
+  "zls",
   "clangd",
   "taplo",
-  "matlab_ls",
   "tsserver",
   "cssls",
-  "html"
+  "html",
+  "sqlls",
 }
 
 local settings = {
