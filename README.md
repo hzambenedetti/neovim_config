@@ -8,6 +8,8 @@
 sudo dnf install neovim
 ```
 
+* For other distros, check out the *"Install from package"* and *"Install from source"* sections on [Neovim's github repo](https://github.com/neovim/neovim?tab=readme-ov-file#install-from-package).
+
 ## Installing prerequisites
 
 ### Installing lua-language-server
@@ -46,11 +48,12 @@ yes | rm -r neovim_config
 
 ## Installing Packer
 
-Just go to [packer's github page](https://github.com/wbthomason/packer.nvim) and follow the installation instructions
+Just go to [packer's github page](https://github.com/wbthomason/packer.nvim?tab=readme-ov-file#quickstart) and follow the installation instructions.
 
 ## Verify that the plugin's are up-to-date
 
 In the packer.lua file verify that plugins like telescope, treesitter and others are in their last stable version.
+As the config is setup, everytime you save the plugins.lua file, it should automaticaly update your plugins.
 
 ## Finalizing
 
