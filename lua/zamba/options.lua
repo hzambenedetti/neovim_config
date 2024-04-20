@@ -42,6 +42,7 @@ local listchars ={
 }
 
 if options["list"] == true then
+  -- vim.cmd("set listchars=")
   for _, c in ipairs(listchars) do
     vim.cmd("set listchars+=" .. c)
   end

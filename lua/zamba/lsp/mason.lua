@@ -12,7 +12,8 @@ local servers = {
   "cssls",
   "html",
   "sqlls",
-  "jdtls"
+  "jdtls",
+  "hls",
 }
 
 local settings = {
