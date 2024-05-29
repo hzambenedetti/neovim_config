@@ -33,7 +33,7 @@ local options = {
   scrolloff = 8,                           -- is one of my fav
   sidescrolloff = 8,
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
-  list = true,                             -- Controls wheter or not to show hidden chars (default to false)
+  list = false,                             -- Controls wheter or not to show hidden chars (default to false)
 }
 
 -- list of hidden chars to show
